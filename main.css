@@ -1,0 +1,53 @@
+body{
+  background-color: #E5E5E5;
+}
+
+
+.header{
+  background-image: url("img/header.jpg");
+  height: 180px;
+}
+
+center{
+  color: #fff;
+  font-size: 20px;
+}
+
+.inicio-header > center > h1 {
+  -webkit-text-fill-color: white;
+
+}
+
+
+.white{
+  color: white;
+}
+
+/*
+*
+* FOOTER
+*
+*/
+footer {
+  background-color: #222222;
+  padding: 25px 0;
+  color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+footer p {
+  font-size: 12px;
+  margin: 0;
+}
+
+footer ul {
+  margin-bottom: 0;
+}
+
+footer ul li a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
+  text-decoration: none;
+}
